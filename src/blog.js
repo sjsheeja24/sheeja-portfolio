@@ -5,7 +5,7 @@ import './App.css';
 function Blog() {
  const navigate = useNavigate();
   return (
-
+  
     <div>
       <nav className="navbar">
         <div className="logo">SJ Sheeja</div>
