@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/sheeja-portfolio/static/css/main.7bcdc465.css",
-    "main.js": "/sheeja-portfolio/static/js/main.2039cc30.js",
-    "static/js/453.5f5e6b0d.chunk.js": "/sheeja-portfolio/static/js/453.5f5e6b0d.chunk.js",
+    "main.css": "/sheeja-portfolio/static/css/main.d70a4b70.css",
+    "main.js": "/sheeja-portfolio/static/js/main.bbd1f4d5.js",
     "index.html": "/sheeja-portfolio/index.html",
-    "main.7bcdc465.css.map": "/sheeja-portfolio/static/css/main.7bcdc465.css.map",
-    "main.2039cc30.js.map": "/sheeja-portfolio/static/js/main.2039cc30.js.map",
-    "453.5f5e6b0d.chunk.js.map": "/sheeja-portfolio/static/js/453.5f5e6b0d.chunk.js.map"
+    "main.d70a4b70.css.map": "/sheeja-portfolio/static/css/main.d70a4b70.css.map",
+    "main.bbd1f4d5.js.map": "/sheeja-portfolio/static/js/main.bbd1f4d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bcdc465.css",
-    "static/js/main.2039cc30.js"
+    "static/css/main.d70a4b70.css",
+    "static/js/main.bbd1f4d5.js"
   ]
 }
