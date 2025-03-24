@@ -1,0 +1,123 @@
+#skills {
+    overflow: hidden;
+    background: linear-gradient(-45deg,  indigo,black);
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.skillTitledes {
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+.skillbars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skillbar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(-45deg, indigo,black);
+}
+.skillimg {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+
+}
+.skillbartext {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+.skillbars {
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.progressbar {
+    margin: 15px 0;
+}
+
+.progressbar p {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.skill-logo {
+    width: 30px;
+    height: 30px;
+}
+.skill-logo:hover {
+    transform: scale(1.05);
+}
+
+.progress {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+.progress:hover {
+    transform: scale(1.05);
+}
+
+.html { width: 90%; background-color: #f16529; }
+.css { width: 85%; background-color: #2965f1; }
+.js { width: 75%; background-color: #f7df1e; color: black; }
+.react { width: 80%; background-color: #61dbfb; color: black; }
+
+
+
+@media screen and (max-width:720px) {
+    .skillbartext {
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width:480px) {
+    .skillbartext {
+        font-size: 3vw;
+    }
+    .skillimg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillbartext>h2 {
+        font-size: 5vw;
+    }
+}

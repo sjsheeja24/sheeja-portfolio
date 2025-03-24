@@ -1,36 +1,26 @@
-import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Blog from "./blog.js";
-import Footer from "./components/Footer.js";
-import Education from "./components/Education.js";
-import Skills from "./page/Skills.js";
-import Contact from "./page/Contact.js";
+import './style.css'; 
+import Navbar from "./components/Navbar/navbar";
+import Blog from "./components/Blog/blog";
+import Education from "./components/Education/education";
+import Skills from "./components/Skills/skills";
+import Projects from "./components/Projects/project";
+import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
 
 
-function Layout({ children }) {
-  return (
-    <>
-      {children} 
-      <Footer />
-        
-    </>
-  );
-}
 
 function App() {
   return (
-    <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Blog />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Layout>
-    </Router>
-  );
+    <div className="App">
+      <Navbar/>
+      <Blog/>
+      <Education/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
+    </div>
+  )
 }
 
 export default App;
