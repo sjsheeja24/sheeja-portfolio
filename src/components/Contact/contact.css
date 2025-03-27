@@ -1,136 +1,136 @@
 #contact {
-    padding: 50px;
-    background: linear-gradient(-45deg,  indigo,black);
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 75rem;
-    width: 100vw;
-    min-height: calc(100vh - 4rem);
-    align-items: center;
+  padding: 50px;
+  background: linear-gradient(-45deg,  indigo,black);
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 75rem;
+  width: 100vw;
+  min-height: calc(100vh - 4rem);
+  align-items: center;
 }
 
 .section-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 .section-title:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .contact-description {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 .contact-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 /* Contact Form */
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 10px;
+  align-items: center;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    border-radius: 5px;
-    border: none;
-    font-size: 1rem;
-    outline: none;
-    background: linear-gradient(-45deg, black, indigo);
-    margin: 0.5rem;
-    color: white;
-    cursor: pointer;
-    
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background: linear-gradient(-45deg, black, indigo);
+  margin: 0.5rem;
+  color: white;
+  cursor: pointer;
+  
 }
 .contact-form input:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 .contact-form textarea:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Prevents textarea from being resized */
 .contact-form textarea {
-    resize: none;
-    height: 120px;
+  resize: none;
+  height: 120px;
 }
 
 /* Contact Form Button */
 .contact-form button {
-    padding: 0.5rem 1rem;
-    background: aqua;
-    border: none;
-    color: black;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 0.5rem;
-    transition: 0.3s ease-in-out;
-    
+  padding: 0.5rem 1rem;
+  background: aqua;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.3s ease-in-out;
+  
 }
 
 .contact-form button:hover {
-    background: aquamarine;
-    transform: scale(1.05);
+  background: aquamarine;
+  transform: scale(1.05);
 }
 
 /* Social Media Links */
 .social-media {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .social-media h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-top: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
 }
 .contactme {
-    color: aqua;
+  color: aqua;
 }
 
 .social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
 }
 
 /* Social Icons */
 .icon {
-    font-size: 2rem;
-    color: blueviolet;
-    transition: 0.3s ease-in-out;
+  font-size: 2rem;
+  color: blueviolet;
+  transition: 0.3s ease-in-out;
 }
 
 .icon:hover {
-    color: aquamarine;
-    transform: scale(1.1);
+  color: aquamarine;
+  transform: scale(1.1);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .contact-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .contact-form,
-    .social-media {
-        width: 100%;
-    }
+  .contact-content {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .contact-form,
+  .social-media {
+      width: 100%;
+  }
 }

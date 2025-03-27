@@ -15,6 +15,7 @@ const Projects = () => {
         <section id="project">
             <h2 className="section-title">My <span className="protitle">Projects</span></h2>
             <p className="propara">Showcasing my journey as a frontend developer with a clean and <br/> responsive portfolio built using React.js.</p>
+            
             <div className="projects-container">
                 {projectData.map((project, index) => (
                     <div key={index} className="project-box">
@@ -22,6 +23,7 @@ const Projects = () => {
                         <div className="project-info">
                             <h3 className="project-title">{project.title}</h3>
                             <p className="project-description">{project.description}</p>
+                            <a href="http://localhost:3000/sheeja-portfolio"><button className="viewbtn">view</button></a>
                         </div>
                     </div>
                 ))}

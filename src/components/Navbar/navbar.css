@@ -107,11 +107,7 @@
       display: block;
   }
 }
-.active {
-  color: aqua;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid aqua;
-}
+
 .navmenu {
   position: absolute;
   top: 4rem;
@@ -135,6 +131,12 @@
   padding: 0.5rem 3rem;
   margin: 0.25rem;
   background: linear-gradient(-45deg, black, indigo);
+  cursor: pointer;
+}
+.list-item:hover {
+  color: aqua;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid aqua;
 }
 @media screen and (max-width:720px) {
   .mobMenu {

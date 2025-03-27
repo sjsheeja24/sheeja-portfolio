@@ -22,7 +22,7 @@
 }
 
 .education-card {
-    display: flex;
+   display: flex;
     align-items: center;
     background: linear-gradient(-45deg, indigo,black);
     padding: 15px;
@@ -51,15 +51,18 @@
     font-size: 16px;
     font-weight: bold;
     color: white;
+    letter-spacing: 1px;
 }
 
 .education-degree {
     font-size: 18px;
     font-weight: bold;
     color: white;
+    letter-spacing: 1px;
 }
 
 .education-institution {
     font-size: 14px;
     color: white;
+    letter-spacing: 1px;
 }
