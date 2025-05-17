@@ -23,7 +23,7 @@ const Projects = () => {
                         <div className="project-info">
                             <h3 className="project-title">{project.title}</h3>
                             <p className="project-description">{project.description}</p>
-                            <a href="http://localhost:3000/sheeja-portfolio"><button className="viewbtn">view</button></a>
+                            <a href="https://sjsheeja24.github.io/sheeja-portfolio/"><button className="viewbtn">view</button></a>
                         </div>
                     </div>
                 ))}
