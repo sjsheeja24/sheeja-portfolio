@@ -6,7 +6,8 @@ const Projects = () => {
         {
             title: "Portfolio Website",
             description: "A responsive personal portfolio website built using React.js and CSS.",
-            image: `${process.env.PUBLIC_URL}/images/portfolio.png`
+            image: `${process.env.PUBLIC_URL}/images/portfolio.png`,
+            link:"https://sjsheeja24.github.io/sheeja-portfolio/"
         },
         
     ];
@@ -23,7 +24,10 @@ const Projects = () => {
                         <div className="project-info">
                             <h3 className="project-title">{project.title}</h3>
                             <p className="project-description">{project.description}</p>
-                            <a href="https://sjsheeja24.github.io/sheeja-portfolio/"><button className="viewbtn">view</button></a>
+                            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                <button className="viewbtn">view</button>
+                            
+                            </a>
                         </div>
                     </div>
                 ))}
