@@ -9,6 +9,12 @@ const Projects = () => {
             image: `${process.env.PUBLIC_URL}/images/portfolio.png`,
             link:"https://sjsheeja24.github.io/sheeja-portfolio/"
         },
+        {
+            title: "Garments Website",
+            description: "A responsive Garment website built using Html, CSS, JS, and Bootstrap.",
+            image: `${process.env.PUBLIC_URL}/images/Garmenti.png`,
+            link:"https://sjsheeja24.github.io/sheeja-profenaa-tech/"
+        },
         
     ];
 
