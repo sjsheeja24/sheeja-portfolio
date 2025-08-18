@@ -15,6 +15,12 @@ const Projects = () => {
             image: `${process.env.PUBLIC_URL}/images/Garmenti.png`,
             link:"https://sjsheeja24.github.io/sheeja-profenaa-tech/"
         },
+        {
+            title: "Travel-Destination Website",
+            description: "A responsive Travel website built using React.js and Tailwindcss.",
+            image: `${process.env.PUBLIC_URL}/images/travel.png`,
+            link:"https://sjsheeja24.github.io/Travel-Destination/"
+        },
         
     ];
 
